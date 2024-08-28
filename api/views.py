@@ -85,3 +85,4 @@ class PendingFriendRequestsView(generics.ListAPIView):
         return User.objects.filter(id__in=pending_friend_requests)
 
 print("testing")
+print("testing1")
