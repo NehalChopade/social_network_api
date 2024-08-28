@@ -83,3 +83,5 @@ class PendingFriendRequestsView(generics.ListAPIView):
         user = self.request.user
         pending_friend_requests = FriendRequest.objects.filter(to_user=user, status='pending').values_list('from_user', flat=True)
         return User.objects.filter(id__in=pending_friend_requests)
+
+print("testing")
