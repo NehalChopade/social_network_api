@@ -86,3 +86,4 @@ class PendingFriendRequestsView(generics.ListAPIView):
 
 print("testing")
 print("testing1")
+print("testing3")
